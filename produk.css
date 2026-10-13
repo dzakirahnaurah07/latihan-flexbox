@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.produk-list {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.kartu {
+    width: 200px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kartu img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.kartu h3 {
+    margin: 0 0 10px;
+}
+
+.harga {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
